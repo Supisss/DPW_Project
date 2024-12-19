@@ -1,0 +1,100 @@
+body {
+    min-height: 100vh;
+    background-image: url('../img/menu.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #ffe6d5;
+}
+
+.navbar {
+    background-color: #ffe6d5 !important; 
+}
+
+.container-fluid .navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav {
+    margin-left: 20px;
+}
+
+.navbar-nav .nav-link {
+    font-weight: bold; 
+}
+
+.text {
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.menu-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.menu-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.menu-card {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+}
+
+.menu-image {
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.menu-image img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.menu-content {
+    padding: 20px;
+    background-color: #808080;
+    color: white;
+}
+
+.menu-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.menu-description {
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+    min-height: 80px;
+}
+
+.menu-price {
+    background-color: white;
+    color: black;
+    padding: 8px 20px;
+    border-radius: 20px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.order-button {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}

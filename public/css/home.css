@@ -1,0 +1,56 @@
+body {
+    min-height: 100%;
+    background-image: url('../img/home1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    background-color: #ffe6d5 !important; 
+}
+
+.container-fluid .navbar-brand{
+    font-weight: bold;
+}
+
+.navbar-nav {
+    margin-left: 20px;
+}
+
+.navbar-nav .nav-link {
+    font-weight: bold; 
+}
+
+.welcome-section {
+    padding: 2rem 4rem;
+    max-width: 600px;
+}
+
+.welcome-title {
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    color: #000;
+}
+
+.welcome-text {
+    font-size: 1.9rem;
+    line-height: 1.5;
+    color: #000;
+    margin-bottom: 2rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .welcome-section {
+        padding: 1.5rem 2rem;
+    }
+    
+    .welcome-title {
+        font-size: 2rem;
+    }
+    
+    .welcome-text {
+        font-size: 1rem;
+    }
+}
