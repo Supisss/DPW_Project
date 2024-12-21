@@ -30,3 +30,19 @@ Route::get('/home', function() {
 Route::get('/menu', function() {
     return view('menu');
 });
+
+Route::get('/about', function() {
+    return view('about');
+});
+
+Route::get('/signup', function() {
+    return view('signup');
+});
+
+Route::get('/pesan', function() {
+    return view('pesan');
+});
+
+Route::get('/pesanan', function() {
+    return view('pesanan');
+});

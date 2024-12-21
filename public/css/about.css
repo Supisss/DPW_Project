@@ -1,0 +1,65 @@
+body {
+    min-height: 100vh;
+    background-image: url('../img/menu.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #ffe6d5;
+}
+
+.navbar {
+    background-color: #ffe6d5 !important; 
+}
+
+.container-fluid .navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav {
+    margin-left: 20px;
+}
+
+.navbar-nav .nav-link {
+    font-weight: bold; 
+    color: rgb(255, 98, 0);
+}
+
+.text {
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+
+.title {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+    background-color: #ffb8a5;
+    padding: 10px;
+    color: #ff6200;
+    margin: 0;
+}
+
+
+
+/* Tim Proyek */
+.team {
+    font-size: 1.9rem;
+    line-height: 1.5;
+    color: #000;
+    margin-bottom: 2rem;
+}
+
+.team h2 {
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.team ol {
+    font-size: 20px;
+    line-height: 1.8;
+    color: #000000;
+}
