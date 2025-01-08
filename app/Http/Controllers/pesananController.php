@@ -11,4 +11,9 @@ class pesananController extends Controller
         $pesanan = pesananMod::all();
         return view('pesanan', ['pesananList' => $pesanan]);
     }
+
+    /* public function index() {
+        $pesanan = pesananMod::paginate(10);
+        return view('pesanan', ['pesananList' => $pesanan]);
+    } */
 }

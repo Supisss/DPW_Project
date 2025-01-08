@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\loginController;
 use App\Http\Controllers\makananController;
 use App\Http\Controllers\pesananController;
+use App\Http\Controllers\PageController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -28,9 +29,14 @@ Route::get('/', function() {
     ]);
 });
 
-// Route::get('/login', function() {
-//     return view('login');
-// });
+/* Route::get('/login', function() {
+    return view('login');
+});
+ */
+
+ Route::get('/home', function() {
+    return view('home');
+});
 
 Route::get('/menu', function() {
     return view('menu');
@@ -52,8 +58,21 @@ Route::get('/pesanan', function() {
     return view('pesanan');
 });
 
+Route::get('/layout', function() {
+    return view('layout');
+});
+
+Route::get('/welcome', function() {
+    return view('welcome');
+});
+
 Route::get('/login', [loginController::class, 'index']);
 
 Route::get('/makanan', [makananController::class, 'index']);
 
 Route::get('/pesanan', [pesananController::class, 'index']);
+
+Route::get('/', [PageController::class, 'home']);
+Route::get('/menu', [PageController::class, 'menu']);
+Route::get('/about', [PageController::class, 'about']);
+Route::get('/login', [PageController::class, 'login']);

@@ -19,8 +19,7 @@
             font-size: auto;
         }
     </style>
-
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffe6d5;">
+    {{-- <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffe6d5;">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Bakso Mang Upi</a>
             <div class="navbar-nav">
@@ -40,12 +39,12 @@
                 </ul>
             </div>
         </div>
-    </nav>
+    </nav> --}}
 
     <div class="welcome-section">
         <h1 class="welcome-title">Welcome !!</h1>
         <p class="welcome-text">
-            Selamat datang di website Bakso Mang {{ $nama }}!<br>
+            Selamat datang di website Bakso Mang upi!<br>
             Nikmati pengalaman makan yang lezat<br>
             dengan desain yang simple, interaktif, dan informatif.<br>
             Proyek ini menggabungkan estetika modern dengan sentuhan lokal untuk memenuhi kebutuhan pengguna.

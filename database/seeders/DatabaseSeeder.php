@@ -15,5 +15,10 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         // \App\Models\User::factory(10)->create();
+        $this->call([
+            loginSeeder::class,
+            makananSeeder::class,
+            pesananSeeder::class,
+        ]);//Command untuk Menjalankan Seeder: php artisan db:seed
     }
 }

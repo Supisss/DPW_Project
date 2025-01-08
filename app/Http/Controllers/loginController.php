@@ -7,15 +7,15 @@ use Illuminate\Http\Request;
 
 class loginController extends Controller
 {
-    public function index () 
+    public function index ()
     {
         $loginDex = loginMod::get();
         return view('login', ['loginDex' => $loginDex]);
     }
 
-    public function create() 
+    public function create()
     {
         $login = loginMod::all();
-        return view('loginCreate', ['login' => $login]);
-    }
+        return view('login', ['login' => $login]);
+    }//loginCreate
 }

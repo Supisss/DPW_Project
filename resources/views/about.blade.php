@@ -1,3 +1,8 @@
+
+
+@section('title', 'About Us')
+
+@section('content')
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,7 +11,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>About</title>
     <link rel="stylesheet" href="css/about.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light">
@@ -32,7 +37,7 @@
         <br>
             Bakso Mang Upi hadir untuk menyajikan kelezatan bakso terbaik dengan cita rasa otentik khas Nusantara. Dibuat dari bahan-bahan segar berkualitas, kami selalu berkomitmen untuk memuaskan lidah pelanggan. Lebih dari sekadar bakso, kami menawarkan pengalaman kuliner yang hangat, ramah, dan tak terlupakan. Selamat menikmati setiap suapan dan terima kasih telah menjadi bagian dari cerita lezat kami!
         </h3></center>
-        <div class="team"> <br> <br> <br> <br> <br> 
+        <div class="team"> <br> <br> <br> <br> <br>
             <h2>Team Project Ini:</h2>
             <ol>
                 <li>Luthfi Paundra</li>
@@ -42,10 +47,10 @@
             </ol>
         </div>
     </div>
-    
-    
 
-    
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
